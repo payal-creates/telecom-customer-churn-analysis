@@ -76,7 +76,7 @@ Telecom-Customer-Churn/
 ├── sql/
 ├── powerbi/
 ├── screenshots/
-├── telecom_churn_analysis.ipynb
+├── jupyternotebook/
 └── README.md
 ```
 
