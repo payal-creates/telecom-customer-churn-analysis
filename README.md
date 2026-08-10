@@ -14,7 +14,11 @@ An end-to-end customer churn analysis project using SQL, Excel, Power BI, and DA
 ## 🛠️ Tools & Technologies
 
 * SQL
-* Microsoft Excel
+* PostgreSQL
+* Excel
+* Python
+* Pandas
+* Jupyter Notebook
 * Power BI
 * DAX
 
@@ -36,6 +40,19 @@ The interactive dashboard provides:
 * Churn by tenure group
 * Contract × tenure churn matrix
 * Interactive slicers for customer segmentation
+
+## 🐍 Python Analysis
+
+Python was used in Jupyter Notebook for:
+
+* Data loading and initial exploration
+* Dataset inspection and descriptive statistics
+* Missing-value analysis
+* Duplicate customer checks
+* Churn distribution analysis
+* Contract vs. churn analysis
+* Data cleaning and type conversion using Pandas
+* Loading the processed dataset into PostgreSQL using SQLAlchemy
 
 ## 🔍 Key Findings
 
@@ -59,6 +76,7 @@ Telecom-Customer-Churn/
 ├── sql/
 ├── powerbi/
 ├── screenshots/
+├── telecom_churn_analysis.ipynb
 └── README.md
 ```
 
